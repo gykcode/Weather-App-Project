@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(33, 34, 34);
+    background-image: url(https://source.unsplash.com/1920x1280/?nature,landscape,mountain-background);
+}
+
+.card {
+    background-color: #000000d0;
+    color: snow;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+h1 .temp{
+    margin: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 50px;
+    background: #7c7c7c2b;
+    color: snow;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+.searchBar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    background: #7c7c7c2b;
+    color: snow;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 50px);
+
+}
